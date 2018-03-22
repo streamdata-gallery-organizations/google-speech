@@ -15,8 +15,8 @@ tags:
 - Speech Recognition
 - Machine Learning
 - Google APIs
-created: "2018-03-15"
-modified: "2018-03-15"
+created: "2018-03-22"
+modified: "2018-03-22"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-speech/master/_listings/google-speech/apis.yaml
 specificationVersion: "0.14"
 apis:
