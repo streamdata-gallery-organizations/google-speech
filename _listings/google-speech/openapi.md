@@ -4,7 +4,7 @@ x-collection-name: Google Speech
 x-complete: 1
 info:
   title: Google Cloud Speech
-  description: google-cloud-speech-api
+  description: google-cloud-speech-api-
   contact:
     name: Google
     url: https://google.com

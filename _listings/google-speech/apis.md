@@ -10,10 +10,10 @@ description: Google Cloud Speech API enables developers to convert audio to text
   Storage, by using the same technology Google uses to power its own products.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/speech-api-lead_2x.png
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Google Speech
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-speech/master/_listings/google-speech/apis.md
 specificationVersion: "0.14"
 apis:
