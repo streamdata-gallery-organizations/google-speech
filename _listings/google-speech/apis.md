@@ -12,13 +12,13 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Google Speech
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-30"
+modified: "2018-08-30"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-speech/master/_listings/google-speech/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Google Cloud Speech API Get Operations
-  x-api-slug: google-cloud-speech-api
+- name: Google Cloud Speech - Get Operations
+  x-api-slug: v1beta1operations-get
   description: |-
     Lists operations that match the specified filter in the request. If the
     server doesn't support this method, it returns `UNIMPLEMENTED`.
@@ -27,15 +27,16 @@ apis:
     to use different resource name schemes, such as `users/*/operations`.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/speech-api-lead_2x.png
   humanURL: https://cloud.google.com/speech/
-  baseURL: ://speech.googleapis.com////v1beta1/operations
-  tags: Operation
+  baseURL: ://speech.googleapis.com//
+  tags: Google APIs, Speech Recognition, Machine Learning, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-speech/master/_listings/google-speech/v1beta1operations-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-speech/master/_listings/google-speech/v1beta1operations-get-openapi.md
-- name: Google Cloud Speech API Delete Operation
-  x-api-slug: google-cloud-speech-api
+- name: Google Cloud Speech - Delete Operation
+  x-api-slug: v1beta1operationsname-delete
   description: |-
     Deletes a long-running operation. This method indicates that the client is
     no longer interested in the operation result. It does not cancel the
@@ -43,30 +44,32 @@ apis:
     `google.rpc.Code.UNIMPLEMENTED`.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/speech-api-lead_2x.png
   humanURL: https://cloud.google.com/speech/
-  baseURL: ://speech.googleapis.com////v1beta1/operations/{name}
-  tags: Operation
+  baseURL: ://speech.googleapis.com//
+  tags: Google APIs, Speech Recognition, Machine Learning, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-speech/master/_listings/google-speech/v1beta1operationsname-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-speech/master/_listings/google-speech/v1beta1operationsname-delete-openapi.md
-- name: Google Cloud Speech API Delete Operation
-  x-api-slug: google-cloud-speech-api
+- name: Google Cloud Speech - Delete Operation
+  x-api-slug: v1beta1operationsname-get
   description: |-
     Gets the latest state of a long-running operation.  Clients can use this
     method to poll the operation result at intervals as recommended by the API
     service.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/speech-api-lead_2x.png
   humanURL: https://cloud.google.com/speech/
-  baseURL: ://speech.googleapis.com////v1beta1/operations/{name}
-  tags: Operation
+  baseURL: ://speech.googleapis.com//
+  tags: Google APIs, Speech Recognition, Machine Learning, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-speech/master/_listings/google-speech/v1beta1operationsname-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-speech/master/_listings/google-speech/v1beta1operationsname-get-openapi.md
-- name: Google Cloud Speech API Cancel Operation
-  x-api-slug: google-cloud-speech-api
+- name: Google Cloud Speech - Cancel Operation
+  x-api-slug: v1beta1operationsnamecancel-post
   description: |-
     Starts asynchronous cancellation on a long-running operation.  The server
     makes a best effort to cancel the operation, but success is not
@@ -80,15 +83,16 @@ apis:
     corresponding to `Code.CANCELLED`.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/speech-api-lead_2x.png
   humanURL: https://cloud.google.com/speech/
-  baseURL: ://speech.googleapis.com////v1beta1/operations/{name}:cancel
-  tags: Operation
+  baseURL: ://speech.googleapis.com//
+  tags: Google APIs, Speech Recognition, Machine Learning, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-speech/master/_listings/google-speech/v1beta1operationsnamecancel-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-speech/master/_listings/google-speech/v1beta1operationsnamecancel-post-openapi.md
-- name: Google Cloud Speech API Perform Asynchronous Speech Recognition
-  x-api-slug: google-cloud-speech-api
+- name: Google Cloud Speech - Perform Asynchronous Speech Recognition
+  x-api-slug: v1beta1speechasyncrecognize-post
   description: |-
     Performs asynchronous speech recognition: receive results via the
     [google.longrunning.Operations]
@@ -98,40 +102,30 @@ apis:
     an `AsyncRecognizeResponse` message.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/speech-api-lead_2x.png
   humanURL: https://cloud.google.com/speech/
-  baseURL: ://speech.googleapis.com////v1beta1/speech:asyncrecognize
-  tags: Speech Recognition
+  baseURL: ://speech.googleapis.com//
+  tags: Google APIs, Speech Recognition, Machine Learning, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-speech/master/_listings/google-speech/v1beta1speechasyncrecognize-post-openapi.md
-- name: Google Cloud Speech API Perform Synchronous Speech Recognition
-  x-api-slug: google-cloud-speech-api
+- name: Google Cloud Speech - Perform Synchronous Speech Recognition
+  x-api-slug: v1beta1speechsyncrecognize-post
   description: |-
     Performs synchronous speech recognition: receive results after all audio
     has been sent and processed.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/speech-api-lead_2x.png
   humanURL: https://cloud.google.com/speech/
-  baseURL: ://speech.googleapis.com////v1beta1/speech:syncrecognize
-  tags: Speech Recognition
+  baseURL: ://speech.googleapis.com//
+  tags: Google APIs, Speech Recognition, Machine Learning, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-speech/master/_listings/google-speech/v1beta1speechsyncrecognize-post-openapi.md
-- name: Google Cloud Speech API
-  x-api-slug: google-cloud-speech-api
-  description: Google Cloud Speech API enables developers to convert audio to text
-    by applying powerful neural network models in an easy to use API. The API recognizes
-    over 80 languages and variants, to support your global user base. You can transcribe
-    the text of users dictating to an application&rsquo;s microphone, enable command-and-control
-    through voice, or transcribe audio files, among many other use cases. Recognize
-    audio uploaded in the request, and integrate with your audio storage on Google
-    Cloud Storage, by using the same technology Google uses to power its own products.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/speech-api-lead_2x.png
-  humanURL: https://cloud.google.com/speech/
-  baseURL: ://speech.googleapis.com//
-  tags: Google Speech
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-speech/master/_listings/google-speech/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://google.spectrum.database.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.speech.stack.network
 - type: x-code
   url: https://cloud.google.com/speech/docs/reference/libraries
 - type: x-concepts
